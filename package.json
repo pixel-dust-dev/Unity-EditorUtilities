@@ -1,9 +1,9 @@
 {
-  "name": "com.pixeldust.editor-utilities",
+  "name": "com.pixeldust.com.pixel-dust.editor-utilities",
   "version": "1.0.0",
   "displayName": "PixelDust Editor Utilities (alpha)",
   "description": "Helpful utilities.",
-  "unity": "2019.1",
+  "unity": "2020.1",
   "unityRelease": "0b5",
   "documentationUrl": "https://example.com/",
   "changelogUrl": "https://example.com/changelog.html",
@@ -18,5 +18,6 @@
     "email": "alistair.m.obrien@gmail.com",
     "url": "https://github.com/pixel-reverie"
   },
-  "type": "tool"
+  "type": "tool",
+  "hideInEditor": true
 }
