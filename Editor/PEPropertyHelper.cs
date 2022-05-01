@@ -315,7 +315,7 @@ namespace PrefabEvolution
 		private static int s_FoldoutHash = "Foldout".GetHashCode();
 		public static void MultiPropertyField(Rect position, GUIContent[] subLabels, SerializedProperty valuesIterator, GUIContent label)
 		{
-			int controlID = GUIUtility.GetControlID(s_FoldoutHash, EditorGUIUtility.native, position);
+			int controlID = GUIUtility.GetControlID(s_FoldoutHash, FocusType.Passive, position);
 			position = MultiFieldPrefixLabel(position, controlID, label, subLabels.Length);
 			position.height = 16;
 			MultiPropertyField(position, subLabels, valuesIterator);
